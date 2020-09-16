@@ -1,1 +1,1 @@
-# webdev
+You can find the project on [gh-pages](https://confesssa.github.io/webdev/)
