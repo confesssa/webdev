@@ -1,18 +1,20 @@
 * {
   margin: 0 auto;
+  font-family: Roboto;
+  color: #FFFFFF;
   /* background-color: aqua; */
 }
 
 .content {
   max-width: 1060px;
   margin: 0 auto;
-  background-color: red;
 }
 
 /* HEADER */
 header {
   /* position: absolute; */
   height: 95px;
+  background-color: red;
 }
 
 nav ul {
@@ -28,11 +30,9 @@ ul li {
 }
 
 .navigation {
-  font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
   line-height: 140%;
-  color: #FFFFFF;
   opacity: 0.8;
   text-decoration: none;
   /* margin: 0 48px; */
@@ -55,4 +55,44 @@ ul li {
 
 .logo:hover {
   background: url(./Assets/header/logo_hidden.svg) no-repeat;
+}
+
+/* YOUR LIFE */
+.life {
+  background: url(./Assets/yourLife/bg-image.jpg);
+}
+
+.life_title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.life_text {
+  /* position: absolute;
+  width: 504px;
+  height: 50px; */
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.button {
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.life_social {
+  display: flex;
 }
