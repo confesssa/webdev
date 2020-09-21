@@ -192,6 +192,11 @@ nav {
   font-weight: 500;
 }
 
+.rectangle:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 /* IMPLEMENT */
 .implement {
   width: 1600px;
@@ -270,4 +275,67 @@ form {
 .submit:hover {
   cursor: pointer;
   background-color: #009CC2;
+}
+
+/* DOWNLOAD */
+.download {
+  width: 1600px;
+  height: 464px;
+  background-color: #F5F6F7;
+}
+
+.content_download {
+  text-align: center;
+  padding-top: 118px;
+}
+
+.button-download {
+  display: flex;
+  justify-content: start;
+  border: none;
+}
+
+.text-download {
+  margin-top: 20px;
+}
+
+.download-container {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.button-text {
+  width: 127px;
+  height: 46px;
+  background: #00AFDB;
+  border-radius: 0px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.button-text a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.button-icon {
+  width: 59px;
+  height: 46px;
+  background: #009CC2;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.apple {
+  background-image: url(./Assets/download/icon-apple.svg);
+
+}
+
+.android {
+  background-image: url(./Assets/download/icon-android.svg);
+
 }
