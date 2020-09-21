@@ -7,31 +7,45 @@
   text-align: center;
 }
 
-.content {
+/* .content {
   max-width: 1060px;
   margin: 0 auto;
-}
+} */
 
 .wrapper {
-  width: 100%;
+  margin: 0 auto;
+  width: 1600px;
   height: 744px;
   background: url(./Assets/yourLife/bg-image.jpg) no-repeat;
-  background-size: contain;
 }
 
 /* HEADER */
+.main-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+h1 {
+  color: black;
+}
+
 header {
-  margin: 0 auto;
   height: 95px;
-  background-color: red;
+  background-color:transparent;
+}
+
+nav {
+  margin: 0 auto;
+  width: 583px;
 }
 
 .nav_list {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0;
 }
 
 .nav_item {
