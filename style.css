@@ -38,9 +38,7 @@
 }
 
 .button:hover {
-  border: 1px white solid;
-  font-size: 13px;
-  opacity: 0.8;
+  background-color: #009CC2;;
 }
 
 .two-column-layout {
@@ -185,6 +183,7 @@ nav {
 /* COMMUNITY */
 .community {
   width: 1600px;
+  height: 504px;
   background-color: #F5F6F7;
 }
 
@@ -196,7 +195,26 @@ nav {
 /* IMPLEMENT */
 .implement {
   width: 1600px;
-  background: green;
+  background: white;
+}
+
+.implement_content {
+  width: 952px;
+  padding-top: 120px;
+  padding-left: 268px;
+  padding-bottom: 140px;
+}
+
+.title-implement {
+  margin-top: 200px;
+}
+
+.text-implement {
+  margin-top: 20px;
+}
+
+.button-implement {
+  margin-top: 30px;
 }
 
 /* SIGN UP */
@@ -206,10 +224,50 @@ nav {
   background: url(./Assets/subscribe/pexels-christina-morillo-1181675\ 1.jpg);
 }
 
+.form-container {
+  padding-top: 197px;
+}
+
+.button-container {
+  margin-top: 12px;
+}
+
 .title-sign-up {
   color: white;
 }
 
 form {
   text-align: center;
+}
+
+.e-mail {
+  width: 340px;
+  height: 46px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.submit {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  width: 66px;
+  height: 46px;
+  background: #00AFDB;
+  background-image: url(./Assets/subscribe/fa-check.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0px;
+  right: 4px;
+  top: 18px;
+}
+
+.e-mail {
+  cursor: pointer;
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: #009CC2;
 }
