@@ -1,16 +1,45 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
   font-family: Roboto;
   color: #FFFFFF;
+  font-size: 14px;
   font-weight: normal;
   text-align: center;
 }
+.title {
+  font-size: 24px;
+  color: #373737;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 
-/* .content {
-  max-width: 1060px;
-  margin: 0 auto;
-} */
+.text {
+  color: #4e4e4e;
+}
+
+.text-accent {
+  font-weight: 500;
+  color: #373737;
+}
+
+.button {
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover {
+  border: 1px white solid;
+  font-size: 13px;
+  opacity: 0.8;
+}
 
 .wrapper {
   margin: 0 auto;
@@ -49,12 +78,11 @@ nav {
 }
 
 .nav_item {
-  margin: 0 46px;
+  /* bla-bla */
 }
 
 .navigation {
   font-weight: normal;
-  font-size: 14px;
   line-height: 140%;
   opacity: 0.8;
   text-decoration: none;
@@ -84,6 +112,7 @@ nav {
 
 /* YOUR LIFE */
 .life_content {
+  padding-top: 134px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,32 +128,19 @@ nav {
 }
 
 .life_text {
-  /* position: absolute;
-  width: 504px;
-  height: 50px; */
+  padding-top: 22px;
   font-size: 18px;
+  color: white;
   line-height: 140%;
 }
 
-.button {
-  width: 184px;
-  height: 46px;
-  background: #00AFDB;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  border: none;
-}
-
-.button:hover {
-  border: 1px white solid;
-  font-size: 13px;
-  opacity: 0.8;
+.life-button {
+  margin-top: 30px;
 }
 
 .life_social {
-  width: 200px;
+  margin-top: 183px;
+  width: 169px;
   display: flex;
   justify-content: space-between;
 }
@@ -135,7 +151,8 @@ nav {
 
 /* RAPPRESENT */
 .rappresent {
-  background-color: wheat;
+  width: 1600px;
+  background-color:white;
 }
 .rappresent_content {
   display: flex;
@@ -154,7 +171,6 @@ nav {
 }
 
 .section-text {
-  font-size: 14px;
   line-height: 140%;
   color: #4E4E4E;
 }
@@ -164,6 +180,19 @@ nav {
   color: #373737;
 }
 
-/* .rappresent_image {
+/* COMMUNITY */
+.community {
+  width: 1600px;
+  background-color: #F5F6F7;
+}
 
-} */
+.title-community {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* IMPLEMENT */
+.implement {
+  width: 1600px;
+  background: green;
+}
