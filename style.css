@@ -198,3 +198,18 @@ nav {
   width: 1600px;
   background: green;
 }
+
+/* SIGN UP */
+.sign-up {
+  width: 1600px;
+  height: 524px;
+  background: url(./Assets/subscribe/pexels-christina-morillo-1181675\ 1.jpg);
+}
+
+.title-sign-up {
+  color: white;
+}
+
+form {
+  text-align: center;
+}
