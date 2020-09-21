@@ -6,17 +6,19 @@
   color: #FFFFFF;
   font-size: 14px;
   font-weight: normal;
-  text-align: center;
 }
 .title {
   font-size: 24px;
   color: #373737;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
+  line-height: 28px;
+  letter-spacing: 1px;
 }
 
 .text {
   color: #4e4e4e;
+  line-height: 20px;
 }
 
 .text-accent {
@@ -39,6 +41,12 @@
   border: 1px white solid;
   font-size: 13px;
   opacity: 0.8;
+}
+
+.two-column-layout {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
 }
 
 .wrapper {
@@ -132,6 +140,7 @@ nav {
   font-size: 18px;
   color: white;
   line-height: 140%;
+  text-align: center;
 }
 
 .life-button {
@@ -155,29 +164,22 @@ nav {
   background-color:white;
 }
 .rappresent_content {
-  display: flex;
-  justify-content: space-between;
+  width: 1062px;
   padding-top: 120px;
-  padding-bottom: 140px;
+  padding-bottom: 136px;
+  margin: 0 auto;
 }
 
-.section-title {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 28px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #373737;
+.title-rappresent {
+  margin-top: 174px;
 }
 
-.section-text {
-  line-height: 140%;
-  color: #4E4E4E;
+.text-rappresent {
+  margin-top: 22px;
 }
 
-.section-text-accent {
-  font-weight: 500;
-  color: #373737;
+.button-rappresent {
+  margin-top: 30px;
 }
 
 /* COMMUNITY */
