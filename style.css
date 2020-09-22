@@ -21,7 +21,7 @@
   line-height: 20px;
 }
 
-.text-accent {
+strong {
   font-weight: 500;
   color: #373737;
 }
@@ -43,7 +43,6 @@
 
 .two-column-layout {
   display: flex;
-  /* flex-direction: row; */
   justify-content: space-between;
 }
 
@@ -79,7 +78,6 @@ nav {
 .nav_list {
   list-style: none;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -104,7 +102,6 @@ nav {
   line-height: 140%;
   opacity: 0.8;
   text-decoration: none;
-  /* margin: 0 48px; */
 }
 
 .navigation:hover,
@@ -120,8 +117,6 @@ nav {
   background: url(./Assets/header/logo.svg) no-repeat;
   margin-top: 25px;
   margin-bottom: 25px;
-  /* margin-right: 5px;
-  margin-right: 5px; */
 }
 
 .logo:hover {
@@ -325,9 +320,10 @@ form {
   top: 18px;
 }
 
-.e-mail {
+.e-mail:hover {
   cursor: pointer;
 }
+
 .submit:hover {
   cursor: pointer;
   background-color: #009CC2;
@@ -369,6 +365,11 @@ form {
   text-transform: uppercase;
 }
 
+.button-text:hover {
+  cursor: pointer;
+  background: #009CC2;
+}
+
 .button-text a {
   position: relative;
   text-decoration: none;
@@ -385,6 +386,10 @@ form {
   border-radius: 0px;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.button-icon:hover {
+  cursor: pointer;
 }
 
 .apple {
@@ -418,7 +423,11 @@ footer {
 
 .footer-navigation-item {
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 21px;
+}
+
+.footer-navigation-item:hover {
+  opacity: 0.6;
 }
 
 .footer-text {
@@ -426,5 +435,17 @@ footer {
 }
 
 .footer-logo {
-  margin-left: -105px;
+  margin-left: -88px;
+}
+
+.footer-navigation li+li:before {
+  content: "|";
+  font-weight: 700;
+  color: #4E4E4E;
+  padding: 8px;
+  position: relative;
+  bottom: 3px;
+  left: -11px;
+  width: 8px;
+  height: 0px;
 }
