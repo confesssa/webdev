@@ -73,18 +73,30 @@ header {
 
 nav {
   margin: 0 auto;
-  width: 583px;
+  width: 596px;
 }
 
 .nav_list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
-.nav_item {
-  /* bla-bla */
+.first-item {
+  margin-right: 86px;
+}
+
+.second-item {
+  margin-right: 100px;
+}
+
+.third-item {
+  margin-right: 100px;
+}
+
+.fourth-item {
+  margin-right: 85px;
 }
 
 .navigation {
@@ -108,8 +120,8 @@ nav {
   background: url(./Assets/header/logo.svg) no-repeat;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-right: 5px;
-  margin-right: 5px;
+  /* margin-right: 5px;
+  margin-right: 5px; */
 }
 
 .logo:hover {
@@ -196,16 +208,20 @@ nav {
 .slider-text {
   color: #373737;
   font-size: 18px;
+  line-height: 100%;
 }
 
 .title-community {
   font-size: 16px;
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 16px;
+  letter-spacing: 2.4px;
+  line-height: 20px;
 }
 
 .text-community {
   width: 345px;
+  margin-top: 10px;
 }
 
 .rectangle:hover {
@@ -214,21 +230,21 @@ nav {
 }
 
 .community-container {
-  margin-top: 17px;
+  margin-top: 20px;
   display: flex;
 }
 
 .community-information {
   text-align: center;
   margin-top: 36px;
-  margin-left: 238px;
+  margin-left: 245px;
 }
 
 .three-column-layout {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  margin-left: 123px;
+  margin-left: 116px;
 }
 
 .community-image {
@@ -245,7 +261,7 @@ nav {
   width: 952px;
   padding-top: 120px;
   padding-left: 268px;
-  padding-bottom: 140px;
+  padding-bottom: 137px;
 }
 
 .title-implement {
@@ -258,6 +274,7 @@ nav {
 
 .button-implement {
   margin-top: 30px;
+  width: 179px;
 }
 
 /* SIGN UP */
@@ -268,7 +285,7 @@ nav {
 }
 
 .content_sign-up {
-  padding-top: 197px;
+  padding-top: 200px;
 }
 
 .button-container {
@@ -289,6 +306,7 @@ form {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
+  padding-left: 24px;
 }
 
 .submit {
@@ -324,7 +342,7 @@ form {
 
 .content_download {
   text-align: center;
-  padding-top: 118px;
+  padding-top: 120px;
 }
 
 .button-download {
@@ -352,10 +370,12 @@ form {
 }
 
 .button-text a {
+  position: relative;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
+  top: 15px;
 }
 
 .button-icon {
@@ -385,10 +405,10 @@ footer {
 
 .content-footer {
   margin: 0 auto;
-  width: 1271px;
+  width: 1279px;
   display: flex;
   justify-content: space-between;
-  padding-top: 57px;
+  padding-top: 60px;
 }
 
 .footer-navigation {
@@ -398,13 +418,13 @@ footer {
 
 .footer-navigation-item {
   text-decoration: none;
-  margin-right: 38px;
+  margin-right: 40px;
 }
 
 .footer-text {
-  padding-top: 16px;
+  padding-top: 15px;
 }
 
 .footer-logo {
-  margin-left: -97px;
+  margin-left: -105px;
 }
