@@ -318,6 +318,7 @@ form {
 /* DOWNLOAD */
 .download {
   width: 1600px;
+  height: 464px;
   background-color: #F5F6F7;
 }
 
@@ -368,10 +369,42 @@ form {
 
 .apple {
   background-image: url(./Assets/download/icon-apple.svg);
-
 }
 
 .android {
   background-image: url(./Assets/download/icon-android.svg);
+}
 
+
+/* FOOTER */
+footer {
+  background-color: black;
+  width: 1600px;
+  height: 185px;
+}
+
+.content-footer {
+  margin: 0 auto;
+  width: 1271px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 57px;
+}
+
+.footer-navigation {
+  display: flex;
+  list-style: none;
+}
+
+.footer-navigation-item {
+  text-decoration: none;
+  margin-right: 38px;
+}
+
+.footer-text {
+  padding-top: 16px;
+}
+
+.footer-logo {
+  margin-left: -97px;
 }
